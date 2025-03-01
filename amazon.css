@@ -1,0 +1,252 @@
+* {
+margin: 0;
+border: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+.nav-logo {
+background-image: url(./img/amazon.jpg);
+height: 50px;
+width: 100px;
+ background-size: cover;
+background-repeat: no-repeat; 
+padding: px;
+
+}
+.border {
+border: 1.5px solid transparent;
+
+}
+.border:hover {
+    border: 1.5px solid white;
+} 
+.nav-icon{
+    width: 90px;
+    height: 50px;
+    color: white;
+    margin-top: 13px;
+}
+.first {
+font-size:small ;
+color: #cccccc;
+margin-left: 15px;
+
+}
+.sec-icon {
+width: 54px;
+height: 16px;
+color: white;
+margin-left:14px ;
+margin-top:-20px ;
+
+}
+.nav-address {
+display: flex;
+align-items: center;
+color: white;
+
+}
+.add-first {
+    font-size: 14px;
+    color: black;
+    background-color: #ffffff;
+    height: 36px;
+    font-weight: 400;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+.add-sec {
+    height: 31.5px;
+    width: 750px;
+
+}
+.nav-address i {
+    background-color: orange;
+    color: black;
+    height: 60%;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+
+}
+.nav-link {
+    display: flex;
+
+}
+.nav-helloo {
+    color: white;
+    font-size: 14px;
+     margin-left: 35px; 
+     margin-top: 15px;
+}
+.nav-sign {
+    color: white;
+    text-decoration: none;
+}
+.nav-acc {
+    color: white;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: -76px;
+    margin-bottom: -30px;
+    font-weight: 600;
+    
+}
+.nav-item {
+color: white;
+margin-left: 50px;
+
+}
+.nav-ret {
+    /* margin-left: 40px; */
+    margin-top: 15px;
+    font-size: 13px;
+}
+.nav-and {
+    font-size: 20px;
+    margin-top: -5px;
+    font-weight: 600;
+}
+.nav-lo {
+    color: white;
+     font-size: 30px;
+    margin-top:17px ;
+    margin-left: 40px;  
+} 
+.cart {
+    font-size: medium;
+    margin-left: 37px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-weight: 600; 
+}
+
+.shop {
+    display: flex;
+height: 40px;
+background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.opt p {
+    display: inline;
+    margin-left: 15px;
+}
+.opt {
+    width: 95%;
+    font-size: 0.85rem;
+} 
+.hero-section {
+    background-image: url(./71nwqPZaNRL._SX3000_.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-line {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width:80%;
+    margin-bottom: 25px;
+    
+}
+.hero-line a {
+    color: #007185;
+}
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:lightpink;
+}
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top:15px ;
+
+
+}
+.box-image {
+height: 300px;
+background-size: cover;
+/* background-repeat: no-repeat; */
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+.box-content{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+color: #007185;
+}
+footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color:darkslategray ;
+    width: 100%;
+    height: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.foot-panel2 {
+    background-color:#222f3d ;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul {
+    margin-top: 40px;
+}
+ul a {
+    display: block;
+    margin-top: 5px;
+}
+
+.foot-panel3 {
+height: 300px;
+background-color: black;
+border-top: 0.4px solid whitesmoke;
+display: flex;
+justify-content: center;
+}
+.lolo {
+    background-image:url(./amazon1.png);
+    height: 65px;
+    width: 200px;
+    background-size: cover;
+    
+
+}
